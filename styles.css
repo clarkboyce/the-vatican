@@ -1,0 +1,100 @@
+.name_list {
+position: inherit;
+}
+
+.title {
+    margin-left: 5%;
+}
+
+.firstp {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.second-title {
+    margin-left: 50px;
+}
+
+.roomate {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 4%;
+    padding-top: 3px;
+}
+
+img {
+    margin-right: 10px;
+    padding-left: 20px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.residents {
+    background-color: lightgray;
+    padding-left: 50px;
+    padding-bottom: 1.5%;
+    padding-top: 0.5%;
+    margin: -5px;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    margin-top: 30px;
+    margin-left:  -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    background-color: #1A1A1D; 
+    font-size: 12pt;
+    color: #FEFFFF;
+    font-family: Open_Sans;     
+}
+
+@font-face {
+    font-family: Open_Sans;
+    src: url(./assets/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+body {
+    margin-top: 25px;
+    margin-bottom: -10px;
+    background-color: #FEFFFF;
+    font-family: Open_Sans;        
+}
+
+form {
+    width: 75%;
+}
+
+.hide {
+    display: none;
+}
+
+header {
+    margin-bottom: 5px;
+    background-color: #FEFFFF;
+    padding: 20px;
+}
+
+h4 {
+    margin: 15px;
+    cursor: pointer;
+}
+
+h4:hover + .hide {
+    display: block;
+    margin: 10px;
+    padding-left: 10px;
+    position:relative;
+}
+
+form { 
+    width: fit-content;
+    margin: 0 auto;
+    }
+
+
+.roommate-info {
+    padding-left: 5px;
+}
